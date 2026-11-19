@@ -1,4 +1,5 @@
-
+const env = require("dotenv")
+env.config()
 const express = require("express")
 require("./db")
 const app = express()
@@ -12,5 +13,5 @@ app.use(orderRouter)
 
 PORT = 3000
 
-app.listen(PORT, ()=>{console.log(` `+PORT)})
+app.listen(PORT, ()=>{console.log(`seun's server is running on `+PORT)})
        
