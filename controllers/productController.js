@@ -31,7 +31,7 @@ exports.getAllProducts = async (req, res) => {
     const data = await productModel.find();
 
     res.status(200).json({
-      message: "Products successfully retrieved",
+      message: "MY product don come oo",
       data
     });
   } catch (error) {
